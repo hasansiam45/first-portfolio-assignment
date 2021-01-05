@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =========
+==============
+default style */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+section{
+   overflow: hidden;
+   padding-bottom: 100px;
+}
+a{
+    text-decoration: none;
+}
+ul{list-style: none;}
+/* =========
+==============
+default style */
+.wrapper{
+    margin-top: 5%;
+}
+.top{
+  
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.menu{
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px;
+}
+.menu ul li a{
+    color: #000;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: #363958;
+}
+h3{
+    color: #363958;
+}
+.highlight{
+    color: rgba(231, 83, 66, 0.904);
+}
+
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.half_width img{
+    width: 100%;
+}
+
+.half_width h1, .half_width h3,p {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.link_btn{
+    text-decoration: none;
+    background: linear-gradient(45deg,salmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about h2{
+    margin-top: 10%;
+}
+.latest_work{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.latest_work h2{
+    margin-bottom: 50px;
+}
+.work{
+    display: flex;
+}
+
+.mywork{
+    width: 30%;
+    height: 320px;
+    margin: 2%;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #808080d5;
+}
+.mywork img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.inquiry{
+    margin-top: 100px;
+    background-image: url("img/Group_33094_1.png");
+    margin-bottom: 100px;
+    border-radius: 75px;
+}
+.myinquiry{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.myinquiry h2{
+    color:#fff;
+}
+.inq_btn{
+    padding-top: 20px;
+}
+.contact{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+form{
+    margin-top: 50px;
+
+}
+.myname, .myemail{
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+    margin: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+.mytext{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+}
+
+.icon img{
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -124,8 +124,9 @@ h3{
 .inquiry{
     margin-top: 100px;
     background-image: url("img/Group_33094_1.png");
+    background-size: cover;
     margin-bottom: 100px;
-    border-radius: 75px;
+    border-radius: 30px;
 }
 .myinquiry{
     padding-top: 100px;
